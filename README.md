@@ -30,8 +30,8 @@ Each project folder contains:
 
 ## 📋 Project List
 
-- **Project 1** ---> MNIST Digit Classifier from scratch
-more comming  soon
+- **Project 1** ---> MNIST Digit Classifier From Scratch
+(more comming  soon)
 
 ## 🤝 Contributing
 
