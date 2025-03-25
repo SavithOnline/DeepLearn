@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Input Layer -->
+  <text x="100" y="50" font-family="Arial" text-anchor="middle">Input Layer</text>
+  <circle cx="100" cy="100" r="10" fill="#4CAF50"/>
+  <circle cx="100" cy="150" r="10" fill="#4CAF50"/>
+  <circle cx="100" cy="200" r="10" fill="#4CAF50"/>
+
+  <!-- First Hidden Layer -->
+  <text x="250" y="50" font-family="Arial" text-anchor="middle">Hidden Layer 1</text>
+  <circle cx="250" cy="100" r="10" fill="#2196F3"/>
+  <circle cx="250" cy="150" r="10" fill="#2196F3"/>
+  <circle cx="250" cy="200" r="10" fill="#2196F3"/>
+  <circle cx="250" cy="250" r="10" fill="#2196F3"/>
+
+  <!-- Second Hidden Layer -->
+  <text x="400" y="50" font-family="Arial" text-anchor="middle">Hidden Layer 2</text>
+  <circle cx="400" cy="100" r="10" fill="#FF9800"/>
+  <circle cx="400" cy="150" r="10" fill="#FF9800"/>
+  <circle cx="400" cy="200" r="10" fill="#FF9800"/>
+  <circle cx="400" cy="250" r="10" fill="#FF9800"/>
+
+  <!-- Output Layer -->
+  <text x="550" y="50" font-family="Arial" text-anchor="middle">Output Layer</text>
+  <circle cx="550" cy="150" r="10" fill="#9C27B0"/>
+  <circle cx="550" cy="200" r="10" fill="#9C27B0"/>
+
+  <!-- Connections -->
+  <!-- Input to First Hidden Layer -->
+  <line x1="110" y1="100" x2="240" y2="100" stroke="#888" stroke-width="1"/>
+  <line x1="110" y1="100" x2="240" y2="150" stroke="#888" stroke-width="1"/>
+  <line x1="110" y1="100" x2="240" y2="200" stroke="#888" stroke-width="1"/>
+  <line x1="110" y1="100" x2="240" y2="250" stroke="#888" stroke-width="1"/>
+
+  <line x1="110" y1="150" x2="240" y2="100" stroke="#888" stroke-width="1"/>
+  <line x1="110" y1="150" x2="240" y2="150" stroke="#888" stroke-width="1"/>
+  <line x1="110" y1="150" x2="240" y2="200" stroke="#888" stroke-width="1"/>
+  <line x1="110" y1="150" x2="240" y2="250" stroke="#888" stroke-width="1"/>
+
+  <line x1="110" y1="200" x2="240" y2="100" stroke="#888" stroke-width="1"/>
+  <line x1="110" y1="200" x2="240" y2="150" stroke="#888" stroke-width="1"/>
+  <line x1="110" y1="200" x2="240" y2="200" stroke="#888" stroke-width="1"/>
+  <line x1="110" y1="200" x2="240" y2="250" stroke="#888" stroke-width="1"/>
+
+  <!-- First Hidden Layer to Second Hidden Layer -->
+  <line x1="260" y1="100" x2="390" y2="100" stroke="#888" stroke-width="1"/>
+  <line x1="260" y1="100" x2="390" y2="150" stroke="#888" stroke-width="1"/>
+  <line x1="260" y1="100" x2="390" y2="200" stroke="#888" stroke-width="1"/>
+  <line x1="260" y1="100" x2="390" y2="250" stroke="#888" stroke-width="1"/>
+
+  <line x1="260" y1="150" x2="390" y2="100" stroke="#888" stroke-width="1"/>
+  <line x1="260" y1="150" x2="390" y2="150" stroke="#888" stroke-width="1"/>
+  <line x1="260" y1="150" x2="390" y2="200" stroke="#888" stroke-width="1"/>
+  <line x1="260" y1="150" x2="390" y2="250" stroke="#888" stroke-width="1"/>
+
+  <line x1="260" y1="200" x2="390" y2="100" stroke="#888" stroke-width="1"/>
+  <line x1="260" y1="200" x2="390" y2="150" stroke="#888" stroke-width="1"/>
+  <line x1="260" y1="200" x2="390" y2="200" stroke="#888" stroke-width="1"/>
+  <line x1="260" y1="200" x2="390" y2="250" stroke="#888" stroke-width="1"/>
+
+  <line x1="260" y1="250" x2="390" y2="100" stroke="#888" stroke-width="1"/>
+  <line x1="260" y1="250" x2="390" y2="150" stroke="#888" stroke-width="1"/>
+  <line x1="260" y1="250" x2="390" y2="200" stroke="#888" stroke-width="1"/>
+  <line x1="260" y1="250" x2="390" y2="250" stroke="#888" stroke-width="1"/>
+
+  <!-- Second Hidden Layer to Output Layer -->
+  <line x1="410" y1="100" x2="540" y2="150" stroke="#888" stroke-width="1"/>
+  <line x1="410" y1="100" x2="540" y2="200" stroke="#888" stroke-width="1"/>
+
+  <line x1="410" y1="150" x2="540" y2="150" stroke="#888" stroke-width="1"/>
+  <line x1="410" y1="150" x2="540" y2="200" stroke="#888" stroke-width="1"/>
+
+  <line x1="410" y1="200" x2="540" y2="150" stroke="#888" stroke-width="1"/>
+  <line x1="410" y1="200" x2="540" y2="200" stroke="#888" stroke-width="1"/>
+
+  <line x1="410" y1="250" x2="540" y2="150" stroke="#888" stroke-width="1"/>
+  <line x1="410" y1="250" x2="540" y2="200" stroke="#888" stroke-width="1"/>
+</svg>
