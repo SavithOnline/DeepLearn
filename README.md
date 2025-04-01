@@ -30,7 +30,8 @@ Each project folder contains:
 
 ## 📋 Project List
 
-- **Project 1** ---> MNIST Digit Classifier From Scratch
+- **Project 1** ---> MNIST Digit Classifier Using NN
+- **Project 2** ---> MNIST Digit Classifier Using CNN
 (more comming  soon)
 
 ## 🤝 Contributing
