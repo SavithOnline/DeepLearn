@@ -32,6 +32,7 @@ Each project folder contains:
 
 - **Project 1** ---> MNIST Digit Classifier Using NN
 - **Project 2** ---> MNIST Digit Classifier Using CNN
+- **Project 3** ---> CIFAR-10 Classifier Using CNN
 (more comming  soon)
 
 ## 🤝 Contributing
